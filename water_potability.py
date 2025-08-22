@@ -34,4 +34,20 @@ if st.button("Predict Potability"):
     else:
         st.error("❌ The water is **Not Potable** (Unsafe to drink)")
 
+st.markdown(
+    """
+    <style>
+    .footer {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        color: gray;
+        font-size: 22px;
+        padding: 5px 10px;
+    }
+    </style>
+    <div class="footer">App by Suman Pervaiz</div>
+    """,
+    unsafe_allow_html=True
+)
 
